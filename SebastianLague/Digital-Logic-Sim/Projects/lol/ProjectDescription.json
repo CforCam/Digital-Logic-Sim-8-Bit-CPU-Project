@@ -1,0 +1,280 @@
+{
+  "ProjectName": "lol",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2026-03-03T13:47:35.905-06:00",
+  "LastSaveTime": "2026-04-29T12:35:44.028-05:00",
+  "Prefs_MainPinNamesDisplayMode": 2,
+  "Prefs_ChipPinNamesDisplayMode": 1,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 1,
+  "Prefs_StraightWires": 1,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 1000,
+  "Prefs_SimStepsPerClockTick": 5,
+  "AllCustomChipNames":[
+    "INV",
+    "AND",
+    "OR",
+    "XOR",
+    "HALF ADDER",
+    "FULL ADDER",
+    "ADDER-2",
+    "ADDER-4",
+    "ADDER-8",
+    "ADDSUB-8",
+    "INV-4",
+    "INV-8",
+    "SELECT",
+    "SELECT-4",
+    "SELECT-8",
+    "AND-4",
+    "AND-8",
+    "XOR-4",
+    "XOR-8",
+    "OR-4",
+    "OR-8",
+    "LOGICUNIT-8",
+    "ALU-8",
+    "SRLATCH",
+    "NOR",
+    "DLATCH",
+    "DECODER 2-4",
+    "MEM-1",
+    "MEM-16",
+    "MEM-256",
+    "RAM-256X8",
+    "ex",
+    "MYPLD",
+    "CPU-8M",
+    "REGISTER-4",
+    "REGISTER-8",
+    "3-STATE BUFFER-4",
+    "3-STATE BUFFER-8",
+    "SWITCH",
+    "SWITCH-4",
+    "SWITCH-8",
+    "BUFFERED SWITCH-8",
+    "PROGRAM COUNTER-8",
+    "COMPARE",
+    "COUNTER-2",
+    "PLA2",
+    "AND-6X1",
+    "AND-4X1",
+    "AND-8X1",
+    "OR-4X1",
+    "OR-8X1",
+    "OR-6X1",
+    "CPU-8A",
+    "CPU-8A1",
+    "PLA1",
+    "CPU-8A2"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN/OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"NAND",
+      "IsCollection":false
+    },
+    {
+      "Name":"INV",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR",
+      "IsCollection":false
+    },
+    {
+      "Name":"XOR",
+      "IsCollection":false
+    },
+    {
+      "Name":"ADDER-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"ADDSUB-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"INV-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"SELECT-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"XOR-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"LOGICUNIT-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"ALU-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"SRLATCH",
+      "IsCollection":false
+    },
+    {
+      "Name":"NOR",
+      "IsCollection":false
+    },
+    {
+      "Name":"DLATCH",
+      "IsCollection":false
+    },
+    {
+      "Name":"DECODER 2-4",
+      "IsCollection":false
+    },
+    {
+      "Name":"MEM-16",
+      "IsCollection":false
+    },
+    {
+      "Name":"MEM-256",
+      "IsCollection":false
+    },
+    {
+      "Name":"RAM-256X8",
+      "IsCollection":false
+    },
+    {
+      "Name":"MYPLD",
+      "IsCollection":false
+    },
+    {
+      "Name":"CPU-8M",
+      "IsCollection":false
+    },
+    {
+      "Name":"REGISTER-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"3-STATE BUFFER-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"SWITCH-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"BUFFERED SWITCH-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"PROGRAM COUNTER-8",
+      "IsCollection":false
+    },
+    {
+      "Name":"COMPARE",
+      "IsCollection":false
+    },
+    {
+      "Name":"COUNTER-2",
+      "IsCollection":false
+    },
+    {
+      "Name":"PLA2",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND-6X1",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND-4X1",
+      "IsCollection":false
+    },
+    {
+      "Name":"AND-8X1",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR-4X1",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR-8X1",
+      "IsCollection":false
+    },
+    {
+      "Name":"OR-6X1",
+      "IsCollection":false
+    },
+    {
+      "Name":"CPU-8A",
+      "IsCollection":false
+    },
+    {
+      "Name":"CPU-8A1",
+      "IsCollection":false
+    },
+    {
+      "Name":"PLA1",
+      "IsCollection":false
+    },
+    {
+      "Name":"CPU-8A2",
+      "IsCollection":false
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["NAND","CLOCK","PULSE","KEY","3-STATE BUFFER"],
+      "IsToggledOpen":false,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8","OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":false,
+      "Name":"IN/OUT"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["7-SEGMENT","DOT DISPLAY","RGB DISPLAY","LED"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER","INV","AND","OR","XOR","HALF ADDER","FULL ADDER","ADDER-2","ADDER-4","ADDER-8","ADDSUB-8","INV-4","INV-8","SELECT","SELECT-4","SELECT-8","AND-4","AND-8","XOR-4","XOR-8","OR-4","OR-8","LOGICUNIT-8","ALU-8","SRLATCH","NOR","DLATCH","DECODER 2-4","MEM-1","MEM-16","MEM-256","RAM-256X8","ex","MYPLD","CPU-8M","REGISTER-4","REGISTER-8","3-STATE BUFFER-4","3-STATE BUFFER-8","SWITCH","SWITCH-4","SWITCH-8","BUFFERED SWITCH-8","PROGRAM COUNTER-8","COMPARE","COUNTER-2","PLA2","AND-6X1","AND-4X1","AND-8X1","OR-4X1","OR-8X1","OR-6X1","CPU-8A","CPU-8A1","PLA1","CPU-8A2"],
+      "IsToggledOpen":true,
+      "Name":"OTHER"
+    }
+  ]
+}

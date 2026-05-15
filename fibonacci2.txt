@@ -1,0 +1,38 @@
+# Fibonacci sequence program
+# Adds together the sequence into the B register,
+# loading and storing the sums at the 0 and 1 address in memory
+# -Camdyn B
+
+# Initialize sequence
+LOAD A, 0
+LOAD B, 1
+STORE *A, B
+ADD B, A
+
+# Main loop
+
+LOAD A, 1
+STORE *A, B
+LOAD A, 0
+LOAD A, *A
+ADD B, A
+
+LOAD A, 0
+STORE *A, B
+LOAD A, 1
+LOAD A, *A
+ADD B, A
+
+# LOOPS
+
+# Reset loop, loops if Fibonacci sum overflows and is less than the previous sum
+LOAD A, 0
+STORE JR, A
+LOAD A, 1
+LOAD A, *A
+JGT
+
+# If not reset, loop back to Main loop
+LOAD A, 6
+STORE JR, A
+JMP

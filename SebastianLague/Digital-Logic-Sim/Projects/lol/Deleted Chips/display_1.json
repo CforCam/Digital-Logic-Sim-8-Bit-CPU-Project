@@ -1,0 +1,60 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "display",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.175,
+    "y": 0.5
+  },
+  "Colour": {
+    "r": 0.190536216,
+    "g": 0.33639136,
+    "b": 0.5653731,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":1649523553,
+      "Position":{
+        "x":-1.875,
+        "y":0.9375
+      },
+      "BitCount":8,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[],
+  "SubChips":[
+    {
+      "Name":"DOT DISPLAY",
+      "ID":1350052012,
+      "Label":"",
+      "Position":{
+        "x":0.385,
+        "y":0.3125
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":6}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1649523553
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1350052012
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays": null
+}

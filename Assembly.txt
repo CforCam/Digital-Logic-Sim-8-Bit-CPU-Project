@@ -1,0 +1,56 @@
+// INSTRUCTIONS
+
+// Load from memory, loads into the register the
+// value at the address held in the A register
+0x2 LOAD A, *A
+0x4 LOAD B, *A
+
+// Load Immediate, multi-byte instruction that
+// loads the next byte into the register
+0x6 LOAD A, *PC
+0x8 LOAD B, *PC
+
+// Store into memory, stores from the register into
+// the address held in the A register
+0xA STORE *A, A
+0xC STORE *A, B
+
+// Store into a register, stores from the right register into
+// the left register
+0xE STORE A, B
+0xF STORE B, A
+0x10 STORE MR, A
+0x11 STORE MR, B
+
+// Add, adds and stores in the left register
+0x12 ADD A, B
+0x13 ADD B, A
+
+// Subtract, subtracts and stores in the left register
+0x14 SUB A, B
+0x15 SUB B, A
+
+// AND, bitwise AND, then stores in the left register
+0x16 AND A, B
+0x17 AND B, A
+
+// OR, bitwise OR, then stores in the left register
+0x18 OR A, B
+0x19 OR B, A
+
+// XOR, bitwise XOR, then stores in the left register
+0x1A XOR A, B
+0x1B XOR B, A
+
+// INV, bitwise NOT
+0x1C INV A
+0x1D INV B
+
+// Jump operations, if true, will advance program counter 
+// to the number in the jump register
+0x1E JMP
+0x1F JLT A, B
+0x20 JLE A, B
+0x21 JEQ A, B
+0x22 JGT A, B
+0x23 JGE A, B

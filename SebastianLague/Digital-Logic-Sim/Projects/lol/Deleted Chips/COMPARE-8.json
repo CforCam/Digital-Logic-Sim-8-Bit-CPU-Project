@@ -1,0 +1,193 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "COMPARE-8",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 1.475,
+    "y": 2.0
+  },
+  "Colour": {
+    "r": 0.186509222,
+    "g": 0.933929741,
+    "b": 0.516209364,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"NEGATIVE",
+      "ID":1940300599,
+      "Position":{
+        "x":-5.875,
+        "y":1.8125
+      },
+      "BitCount":1,
+      "Colour":1,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OVERFLOW",
+      "ID":1251717748,
+      "Position":{
+        "x":-5.875,
+        "y":1.3125
+      },
+      "BitCount":1,
+      "Colour":1,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"ZERO",
+      "ID":17967522,
+      "Position":{
+        "x":-5.875,
+        "y":0.8125
+      },
+      "BitCount":1,
+      "Colour":1,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"JMP LT",
+      "ID":1183671777,
+      "Position":{
+        "x":-5.875,
+        "y":-0.875
+      },
+      "BitCount":1,
+      "Colour":2,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"JMP LTEQ",
+      "ID":1769066103,
+      "Position":{
+        "x":-5.875,
+        "y":-1.375
+      },
+      "BitCount":1,
+      "Colour":2,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"JMP EQ",
+      "ID":866156063,
+      "Position":{
+        "x":-5.875,
+        "y":-1.875
+      },
+      "BitCount":1,
+      "Colour":2,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"JMP GTEQ",
+      "ID":1613201007,
+      "Position":{
+        "x":-5.875,
+        "y":-2.375
+      },
+      "BitCount":1,
+      "Colour":2,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"JMP GT",
+      "ID":1379739515,
+      "Position":{
+        "x":-5.875,
+        "y":-2.875
+      },
+      "BitCount":1,
+      "Colour":2,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"JMP LT",
+      "ID":1749697809,
+      "Position":{
+        "x":5.5,
+        "y":-0.875
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"JMP LTEQ",
+      "ID":2099648906,
+      "Position":{
+        "x":5.5,
+        "y":-1.375
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":1704766546,
+      "Position":{
+        "x":5.5,
+        "y":-1.875
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":1047718705,
+      "Position":{
+        "x":5.5,
+        "y":-2.375
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    },
+    {
+      "Name":"OUT",
+      "ID":778484554,
+      "Position":{
+        "x":5.5,
+        "y":-2.875
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"AND",
+      "ID":389812681,
+      "Label":"",
+      "Position":{
+        "x":-2.9525,
+        "y":-0.75
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":947956935}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1183671777
+      },
+      "TargetPinAddress":{
+        "PinID":1385929239,
+        "PinOwnerID":389812681
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays": null
+}

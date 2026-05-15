@@ -1,0 +1,100 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "INV",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.725,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.9951821,
+    "g": 0.177702159,
+    "b": 0.6847322,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":449512568,
+      "Position":{
+        "x":-7.75,
+        "y":0.3125
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1382257554,
+      "Position":{
+        "x":-3.75,
+        "y":0.3125
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"NAND",
+      "ID":194515241,
+      "Label":"",
+      "Position":{
+        "x":-5.75,
+        "y":0.3125
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":449512568
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":194515241
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":-6.5,"y":0.3125},{"x":-6.5,"y":0.4375},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":449512568
+      },
+      "TargetPinAddress":{
+        "PinID":1,
+        "PinOwnerID":194515241
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":0,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":-6.5,"y":0.3125},{"x":-6.5,"y":0.1875},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":194515241
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1382257554
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":-4.75,"y":0.3125},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays": null
+}
